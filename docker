@@ -1,0 +1,10 @@
+docker compose build
+buat image
+docker compose up
+run image
+docker compose down
+
+
+
+
+docker run --name nginx --rm -p 8080:80 nginx:latest
