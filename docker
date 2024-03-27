@@ -5,6 +5,9 @@ run image
 docker compose down
 
 
+docker compose up --build
+
+
 
 
 docker run --name nginx --rm -p 8080:80 nginx:latest
